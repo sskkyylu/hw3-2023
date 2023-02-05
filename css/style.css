@@ -1,0 +1,117 @@
+body{
+    line-height: 2;
+}
+
+header, nav{
+    padding: 20px 10px 15px 15px;
+    margin: 30px;
+
+}
+nav ul li{
+    display: inline-block;
+    margin: 30px 10px 20px 20px;
+    padding: 30px;
+    font-size: 20px;
+    background-color: blanchedalmond;
+    /* Set display, margin, padding, font-size, background-color */
+
+}
+
+nav a{
+    text-decoration: none
+}
+
+a:visited{
+    color: black
+
+}
+
+nav a.current{
+    text-decoration: underline wavy black 5px;
+    text-underline-offset: 30%;
+    text-transform: uppercase;
+    /* Set text decoration, transformation, and underline properties */
+}
+
+
+h1{
+   font-size: 250%;
+   font-family: Merriweather, Anton, "Times New Roman", Arial;
+
+}
+
+h2{
+   font-size: 180%;
+   font-family: Anton, "Times New Roman", Arial;
+   text-align: center;
+}
+
+h3{
+    font-size: 140%;
+}
+
+h1, h2, h3{
+    margin-top: 10px;
+
+}
+.grid{
+    width: 90%;
+    margin: auto;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    background-color: #6e838f;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    /*Set width, margin, border properties, background color, and grid properties */
+}
+
+.grid div{
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(197, 197, 197);
+    /* Set border properties, padding, and background color */
+
+}
+
+.grid img{
+    display: grid;
+    width: 90%;
+    margin: auto
+    /* Set width, margin, and display */
+}
+
+
+.grid div:nth-child(3n+1)  {
+    box-shadow: 5px 0 rgba(148, 148, 148, 0.72)
+    /* Set box shadow */
+    }
+
+.grid div:nth-child(3n)  {
+    box-shadow: -5px 0 rgba(148, 148, 148, 0.72)
+}
+
+.grid div:nth-child(3n+2)  {
+    box-shadow: 5px 0 rgba(148, 148, 148, 0.72), -5px 0 rgba(148, 148, 148, 0.72)
+}
+
+
+p + p {
+    text-indent: 15px;
+  }
+
+p{
+    margin-top: 5px;
+}
+
+
+.grid ul li{
+    line-height: normal;
+    list-style-image: url(../images/sketchbook.png);
+    margin: 0 0 10px 30px;
+    /* Set margin, line-spacing, list styling  */
+}
+
